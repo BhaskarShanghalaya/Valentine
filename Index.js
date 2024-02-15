@@ -40,5 +40,5 @@ function adjustPadding() {
 }
 function displayImage() {
     var container = document.getElementById("center");
-    container.innerHTML = "<img src='Img/valentine.jpg' alt='Your Image' style='display: block; margin: 0 auto; width: 100vh;'>";
+    container.innerHTML = "<img src='Img/valentine.jpg' alt='Your Image' style='display: block; margin: 0 auto; max-width: 100%; height: auto;'>";
 }
